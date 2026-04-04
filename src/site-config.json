@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Summit Flooring",
+    "phone": "555-flo-r91",
+    "category": "flooring",
+    "city": "Columbus",
+    "state": "OH"
+  },
+  "design": {
+    "preset": {
+      "id": "flooring-mountain-bold",
+      "categoryGroup": "flooring",
+      "name": "Mountain Bold",
+      "recipeFile": "flooring/mountain-bold.astro",
+      "colors": {
+        "primary": "#78350F",
+        "primaryDark": "#54250b",
+        "primaryLight": "#ddcdc3",
+        "secondary": "#92400E",
+        "accent": "#D97706",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#78350F",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "flooring/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Elevate Your Columbus Home with Timeless Flooring",
+      "heroSubline": "Expert flooring solutions designed for Ohio's climate. Transforming homes from German Village to Dublin with durable, beautiful surfaces.",
+      "aboutTitle": "Crafting Floors That Stand the Test of Time",
+      "aboutText": [
+        "Founded in 2012, Summit Flooring has become Columbus' trusted name for flooring that withstands our freeze-thaw winters and humid summers. Our team grew up in Central Ohio and understands how clay soil shifts and ice dams impact homes.",
+        "We combine Midwest craftsmanship with advanced materials testing. Every installation includes climate-specific underlayments and expansion gaps for seasonal movement.",
+        "Proud supporters of the Columbus Arts Festival and donors to Habitat for Humanity's Central Ohio builds."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adaptive Installations",
+          "description": "Specialized techniques prevent buckling and gaps from Ohio's temperature extremes."
+        },
+        {
+          "title": "Historic Home Specialists",
+          "description": "We preserve character while upgrading floors in Columbus' 1920s Tudors and Colonials."
+        },
+        {
+          "title": "Subfloor Diagnostics",
+          "description": "Thermal imaging detects moisture issues before installation in our humid climate."
+        },
+        {
+          "title": "Community Pricing",
+          "description": "Fair rates for working families across Franklin County neighborhoods."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Free Flooring Assessment",
+      "ctaSubline": "See samples at our Short North showroom or have us bring options to your home."
+    },
+    "services": [
+      {
+        "slug": "hardwood-floor-installation",
+        "name": "Hardwood Floor Installation",
+        "shortDescription": "Solid and engineered hardwood solutions built for Ohio's seasonal changes.",
+        "description": "Our 5-layer installation process ensures your hardwood floors withstand Columbus' humidity swings and winter dryness. Starting with moisture barrier underlayments rated for clay soil homes, we acclimate planks in your space for 72 hours before installation.\n\nSpecial attention goes to expansion gaps in homes near the Scioto River where humidity fluctuates. We use engineered hardwoods in basement conversions and solid oak for historic home restorations. All finishes include UV-cured aluminum oxide coatings that resist scratches from Midwest winter boots and pet traffic.\n\nPost-installation, we provide climate-specific care instructions to prevent gaps in winter and maintain luster through humid summers.",
+        "process": [
+          "Step 1: Subfloor moisture mapping with digital hygrometers",
+          "Step 2: Climate-adaptive underlayment installation",
+          "Step 3: Precision cutting for expansion zones",
+          "Step 4: Low-VOC finish application"
+        ],
+        "benefits": [
+          "Eliminates seasonal squeaks and gaps",
+          "Historic district-approved materials",
+          "Won't buckle in summer humidity",
+          "Matches original 1920s flooring profiles"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my home's original 1940s hardwood?",
+            "answer": "We maintain a specialty millwork shop that replicates 20th century plank dimensions and grain patterns. Bring a sample to our showroom for perfect matching."
+          },
+          {
+            "question": "How does your installation differ for ranch homes?",
+            "answer": "1960s ranches often require subfloor reinforcement before installation. We add cross-bracing in crawl spaces to prevent flexing that causes cracks."
+          }
+        ]
+      },
+      {
+        "slug": "luxury-vinyl-plank",
+        "name": "Luxury Vinyl Plank",
+        "shortDescription": "Waterproof flooring perfect for basements and active households.",
+        "description": "The ideal solution for Columbus homes dealing with basement moisture or active families. Our luxury vinyl planks feature attached cork underlayments that dampen sound in multi-level townhomes and provide warmth against concrete slabs.\n\nWe install with perimeter expansion systems that accommodate the 40°F seasonal temperature swings in Central Ohio. Special cold-weather adhesives prevent lifting at thresholds during polar vortex events. Textured finishes provide traction when carrying groceries through snowy entryways.\n\nOptions include realistic wood looks for German Village condos and stone visuals for contemporary Dublin homes. All materials exceed Ohio's indoor air quality standards for family safety.",
+        "process": [
+          "Step 1: Concrete moisture testing (basements)",
+          "Step2: Anti-fracture membrane installation",
+          "Step3: Directional pattern planning",
+          "Step4: Climate-lock edge sealing"
+        ],
+        "benefits": [
+          "100% waterproof for basements",
+          "Warm underfoot in winter",
+          "Noise-reducing for condos",
+          "Pet-proof wear layer"
+        ],
+        "faq": [
+          {
+            "question": "How does LVP handle Ohio's humidity?",
+            "answer": "Our planks have a rigid core that won't expand/contract like traditional vinyl. We leave precise expansion gaps hidden under baseboards."
+          },
+          {
+            "question": "Can you install over radiant heat?",
+            "answer": "Yes - we use specially approved planks that conduct heat efficiently without emitting VOCs when warmed."
+          }
+        ]
+      },
+      {
+        "slug": "tile-flooring",
+        "name": "Tile Flooring",
+        "shortDescription": "Durable ceramic and porcelain for wet areas and high-traffic zones.",
+        "description": "From Westerville mudrooms to Clintonville kitchen backsplashes, we install tile that stands up to Midwest weather. Our freeze-thaw rated porcelain resists cracking when temperatures swing from 90°F to -10°F. For homes with radiant heat, we use flexible thinset mortars that won't crack when systems activate.\n\nSpecial techniques include slope grading for shower floors and anti-fracture membranes under large-format tiles. We source locally made tiles from Ohio manufacturers when possible, including replicas of original 1900s subway tile patterns found in Short North lofts.\n\nAll grout receives penetrating sealers that prevent staining from road salt and winter slush. We coordinate with plumbers to ensure proper waterproofing behind wet wall installations.",
+        "process": [
+          "Step1: Structural deflection testing",
+          "Step2: Crack isolation membrane application",
+          "Step3: Laser-leveled layout",
+          "Step4: Epoxy grout installation"
+        ],
+        "benefits": [
+          "Withstands heavy entryway traffic",
+          "Freeze-thaw stable",
+          "Historic pattern matching",
+          "Easy winter cleanup"
+        ],
+        "faq": [
+          {
+            "question": "What tile works best for my sunroom addition?",
+            "answer": "We recommend through-body porcelain that won't fade in south-facing rooms. Darker grout hides dirt from patio access."
+          },
+          {
+            "question": "Can you match my 1920s hex tile?",
+            "answer": "Our suppliers carry reproduction hex tiles with authentic color variations. We can blend new installations seamlessly."
+          }
+        ]
+      },
+      {
+        "slug": "carpet-installation",
+        "name": "Carpet Installation",
+        "shortDescription": "Premium carpets with moisture-resistant backings for Ohio homes.",
+        "description": "Specially selected carpets that combat Columbus' humidity without trapping allergens. We install with dense pad systems that prevent matting from heavy winter boot traffic while providing insulation against cold floors.\n\nAll seams receive heat welding to prevent separation during temperature swings. For basements and lower levels, we use synthetic fibers with mold-resistant backings. Our pet-friendly options include stain-resistant treatments that stand up to muddy paw prints.\n\nIn historic homes, we replicate wall-to-wall installations with authentic wool blends and traditional tack strip methods. For contemporary spaces, we offer patterned carpets that define living areas in open-concept floor plans.",
+        "process": [
+          "Step1: Subfloor preparation and leveling",
+          "Step2: Antimicrobial pad installation",
+          "Step3: Power-stretching for tautness",
+          "Step4: Seam sealing"
+        ],
+        "benefits": [
+          "Allergy-reducing fibers",
+          "Insulates against cold floors",
+          "Authentic historic reproductions",
+          "Pet-accident protection"
+        ],
+        "faq": [
+          {
+            "question": "What carpet works best for my finished attic?",
+            "answer": "We recommend lightweight synthetic fibers with extra padding to compensate for uneven historic floorboards underneath."
+          },
+          {
+            "question": "How do you prevent odors in humid weather?",
+            "answer": "Our premium pads include charcoal layers that absorb moisture and odors before they penetrate fibers."
+          }
+        ]
+      },
+      {
+        "slug": "floor-refinishing",
+        "name": "Floor Refinishing",
+        "shortDescription": "Breathing new life into worn hardwood throughout Central Ohio.",
+        "description": "Specialized restoration for Columbus' historic homes and mid-century floors. Our 7-step refinishing process starts with gentle dustless sanding that preserves delicate original wood. We fill historic nail holes with custom-blended wood putty rather than replacing boards unnecessarily.\n\nFor pre-1950s homes, we use linseed oil-based finishes that deepen patina rather than obscure character. Modern polyurethanes receive extra coats in high-traffic patterns unique to your household. All finishes cure under humidity-controlled conditions to prevent clouding.\n\nWe can match nearly any historic stain color, including the distinctive amber tones found in German Village kitchens. Protective felt pads are installed on all furniture legs before moving back into rooms.",
+        "process": [
+          "Step1: 100-grit orbital sanding",
+          "Step2: Grain-raising with water",
+          "Step3: Hand-scraping edges",
+          "Step4: Oil-modified urethane application"
+        ],
+        "benefits": [
+          "Preserves original floor thickness",
+          "Authentic historic finishes",
+          "Dust-contained system",
+          "Custom stain matching"
+        ],
+        "faq": [
+          {
+            "question": "Can you repair water-damaged sections without refinishing everything?",
+            "answer": "Yes - we blend repairs using board replacement and grain-matching techniques that make damage disappear."
+          },
+          {
+            "question": "How long until furniture can be replaced?",
+            "answer": "Our fast-curing finishes allow light furniture after 24 hours, with full curing in 72 hours depending on humidity levels."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Megan T.",
+        "rating": 5,
+        "service": "Hardwood Floor Installation",
+        "text": "Summit restored the original 1937 oak floors in our German Village home. They replicated missing boards perfectly and used a period-appropriate finish that matches our archways. Six winters later - no gaps or squeaks!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James W.",
+        "rating": 5,
+        "service": "Luxury Vinyl Plank",
+        "text": "Our Dublin basement flooded last spring. Summit installed LVP that looks like real walnut but handles moisture perfectly. The textured surface prevents slips when coming in from the pool area.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Lisa H.",
+        "rating": 5,
+        "service": "Tile Flooring",
+        "text": "The freeze-thaw rated tile in our Westerville mudroom has survived two polar vortexes without cracking. They matched the original 1920s hex pattern in the adjoining bathroom flawlessly.",
+        "date": "2024-11-03"
+      },
+      {
+        "name": "David R.",
+        "rating": 5,
+        "service": "Carpet Installation",
+        "text": "Summit's pet-proof carpet in our Clintonville living room has endured three dogs and two toddlers. The special padding makes it comfortable for playtime but doesn't show wear patterns.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Floor Refinishing",
+        "text": "They salvaged our water-damaged 1940s maple floors in Upper Arlington using board replacement instead of a full sand-down. You'd never know there was damage - the grain matching is incredible.",
+        "date": "2024-08-05"
+      },
+      {
+        "name": "Thomas B.",
+        "rating": 5,
+        "service": "Hardwood Floor Installation",
+        "text": "Installed white oak throughout our new Short North condo with special soundproofing underlayment. The wide planks make the space feel larger and haven't budged despite radiator heat fluctuations.",
+        "date": "2024-07-21"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Columbus Flooring Installation | Climate-Adaptive Solutions",
+        "description": "Expert hardwood, LVP & tile installation for Ohio homes. Serving Dublin, Westerville & Central OH with freeze-thaw resistant flooring since 2012."
+      },
+      "about": {
+        "title": "About Our Columbus Flooring Company | Summit Flooring",
+        "description": "Local flooring specialists preserving historic homes while installing durable modern surfaces. Learn why Central Ohio trusts us with their floors."
+      },
+      "services": {
+        "title": "Flooring Services in Columbus OH | Hardwood to LVP",
+        "description": "Comprehensive flooring solutions designed for Ohio's climate. From German Village restorations to waterproof basement floors, we've got you covered."
+      },
+      "contact": {
+        "title": "Contact Summit Flooring | Columbus Flooring Experts",
+        "description": "Schedule your free flooring consultation. Serving Dublin, Westerville, Hilliard and all of Central Ohio with quality installations."
+      },
+      "reviews": {
+        "title": "Columbus Flooring Reviews | Real Customer Stories",
+        "description": "See how we've transformed homes across Franklin County with durable, beautiful flooring solutions tailored to Ohio living."
+      },
+      "service-areas": {
+        "title": "Flooring Services Areas | Columbus OH Region",
+        "description": "We proudly serve Dublin, Westerville, Hilliard and surrounding communities with expert flooring installations since 2012."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Dublin",
+        "slug": "dublin-oh",
+        "state": "OH",
+        "content": "Summit Flooring proudly serves Dublin, OH, providing premium flooring solutions for its upscale subdivisions built from the 1980s to the 2000s. Our expertise in handling freeze-thaw damage ensures your floors remain durable through cold, snowy winters. Whether you're updating hardwood, installing luxury vinyl, or refinishing existing surfaces, we tailor our services to match Dublin's elegant homes and high standards.\n\nWith Dublin's climate posing unique challenges, we prioritize materials and installation techniques that resist moisture and temperature fluctuations. From historic neighborhoods to modern developments, Summit Flooring delivers flawless results that enhance your home's value and comfort.",
+        "localContext": "Dublin features upscale subdivisions built between the 1980s and 2000s, with cold winters causing freeze-thaw damage.",
+        "nearbyAreas": [
+          "Hilliard",
+          "Upper Arlington",
+          "Powell"
+        ]
+      },
+      {
+        "city": "Westerville",
+        "slug": "westerville-oh",
+        "state": "OH",
+        "content": "Summit Flooring is your trusted partner for flooring in Westerville, OH, where established 1970s-80s suburbs demand reliable and stylish solutions. Our team specializes in addressing freeze-thaw damage common in this region, ensuring your floors withstand harsh winters. Whether you need carpet, hardwood, or tile, we offer durable options that complement Westerville's classic architectural charm.\n\nUnderstanding Westerville's seasonal challenges, we recommend moisture-resistant materials and expert installation to prevent warping and cracking. From cozy family homes to elegant residences, Summit Flooring provides personalized service and lasting quality.",
+        "localContext": "Westerville is known for its 1970s-80s established suburbs and cold snowy winters that cause freeze-thaw damage.",
+        "nearbyAreas": [
+          "New Albany",
+          "Gahanna",
+          "Lewis Center"
+        ]
+      },
+      {
+        "city": "Hilliard",
+        "slug": "hilliard-oh",
+        "state": "OH",
+        "content": "Summit Flooring serves Hilliard, OH, offering expert flooring solutions for its 1980s-90s family subdivisions. Our team is skilled in addressing freeze-thaw damage, ensuring your floors stay beautiful and functional through snowy winters. Whether you're upgrading to hardwood, laminate, or tile, we provide options that suit Hilliard's family-friendly neighborhoods.\n\nHilliard's climate requires flooring that can handle temperature swings, so we prioritize materials with superior durability and moisture resistance. From quick replacements to full renovations, Summit Flooring delivers exceptional results tailored to your home.",
+        "localContext": "Hilliard features 1980s-90s family subdivisions and experiences cold snowy winters with freeze-thaw damage.",
+        "nearbyAreas": [
+          "Dublin",
+          "Columbus",
+          "Galloway"
+        ]
+      },
+      {
+        "city": "Grove City",
+        "slug": "grove-city-oh",
+        "state": "OH",
+        "content": "Summit Flooring is proud to serve Grove City, OH, providing affordable and durable flooring solutions for its 1970s-80s homes. Our expertise in freeze-thaw damage ensures your floors remain intact during cold, snowy winters. Whether you need budget-friendly laminate, resilient vinyl, or classic carpet, we help Grove City homeowners achieve stylish and practical results.\n\nGrove City's climate demands flooring that resists moisture and temperature changes, so we focus on high-quality materials and precise installation. From starter homes to long-term residences, Summit Flooring delivers value and reliability.",
+        "localContext": "Grove City offers affordable 1970s-80s homes and faces cold snowy winters with freeze-thaw damage.",
+        "nearbyAreas": [
+          "Columbus",
+          "South Columbus",
+          "Harrisburg"
+        ]
+      },
+      {
+        "city": "Upper Arlington",
+        "slug": "upper-arlington-oh",
+        "state": "OH",
+        "content": "Summit Flooring serves Upper Arlington, OH, delivering premium flooring solutions for its well-established neighborhoods. With cold winters causing freeze-thaw damage, our team ensures your floors stay durable and elegant. Whether you prefer hardwood, tile, or eco-friendly options, we cater to Upper Arlington's discerning homeowners.\n\nUpper Arlington's seasonal extremes require flooring that balances beauty and resilience. We recommend materials that resist moisture and temperature shifts, backed by our meticulous installation process. From historic homes to modern updates, Summit Flooring exceeds expectations.",
+        "localContext": "Upper Arlington features well-established neighborhoods and cold snowy winters with freeze-thaw damage.",
+        "nearbyAreas": [
+          "Columbus",
+          "Dublin",
+          "Grandview Heights"
+        ]
+      },
+      {
+        "city": "Gahanna",
+        "slug": "gahanna-oh",
+        "state": "OH",
+        "content": "Summit Flooring provides expert flooring services in Gahanna, OH, where diverse homes benefit from our freeze-thaw damage solutions. Whether your home is modern or traditional, we offer durable flooring options like hardwood, luxury vinyl, and tile to withstand snowy winters. Our team ensures flawless installations that enhance Gahanna's vibrant community.\n\nGahanna's climate demands flooring that resists moisture and temperature fluctuations. We prioritize materials and techniques that prevent warping and cracking, ensuring long-lasting results for every homeowner.",
+        "localContext": "Gahanna has diverse homes and experiences cold snowy winters with freeze-thaw damage.",
+        "nearbyAreas": [
+          "New Albany",
+          "Westerville",
+          "Blacklick"
+        ]
+      },
+      {
+        "city": "Powell",
+        "slug": "powell-oh",
+        "state": "OH",
+        "content": "Summit Flooring serves Powell, OH, offering high-end flooring solutions for its upscale homes and estates. Our expertise in freeze-thaw damage ensures your floors remain pristine through harsh winters. Whether you're installing hardwood, stone tile, or custom designs, we cater to Powell's luxury market with precision and care.\n\nPowell's climate requires flooring that can handle extreme temperature changes. We use top-tier materials and advanced installation methods to prevent moisture-related issues, delivering unmatched quality for your home.",
+        "localContext": "Powell is known for its upscale homes and estates, with cold snowy winters causing freeze-thaw damage.",
+        "nearbyAreas": [
+          "Dublin",
+          "Delaware",
+          "Liberty Township"
+        ]
+      },
+      {
+        "city": "Lewis Center",
+        "slug": "lewis-center-oh",
+        "state": "OH",
+        "content": "Summit Flooring is proud to serve Lewis Center, OH, providing durable flooring solutions for its growing suburban communities. Our team specializes in addressing freeze-thaw damage, ensuring your floors withstand cold, snowy winters. Whether you choose laminate, vinyl, or hardwood, we deliver options that suit Lewis Center's family-oriented lifestyle.\n\nLewis Center's climate necessitates flooring that resists temperature swings and moisture. We recommend materials with enhanced durability and professional installation to keep your home comfortable year-round.",
+        "localContext": "Lewis Center features growing suburban communities and cold snowy winters with freeze-thaw damage.",
+        "nearbyAreas": [
+          "Delaware",
+          "Powell",
+          "Westerville"
+        ]
+      },
+      {
+        "city": "New Albany",
+        "slug": "new-albany-oh",
+        "state": "OH",
+        "content": "Summit Flooring serves New Albany, OH, offering stylish and resilient flooring solutions for its upscale developments. Our expertise in freeze-thaw damage ensures your floors endure snowy winters without compromise. Whether you prefer engineered hardwood, tile, or sustainable options, we cater to New Albany's refined aesthetic.\n\nNew Albany's climate demands flooring that resists moisture and temperature fluctuations. We prioritize high-performance materials and expert installation to protect your investment and elevate your home's appeal.",
+        "localContext": "New Albany is known for its upscale developments and cold snowy winters with freeze-thaw damage.",
+        "nearbyAreas": [
+          "Gahanna",
+          "Westerville",
+          "Blacklick"
+        ]
+      },
+      {
+        "city": "Delaware",
+        "slug": "delaware-oh",
+        "state": "OH",
+        "content": "Summit Flooring provides reliable flooring services in Delaware, OH, where historic and modern homes alike benefit from our freeze-thaw damage solutions. Whether you're restoring original hardwood or installing new luxury vinyl, we ensure durability through cold winters. Our team tailors each project to Delaware's unique character and needs.\n\nDelaware's climate requires flooring that handles temperature extremes. We use moisture-resistant materials and precise techniques to prevent warping and ensure long-lasting beauty for your home.",
+        "localContext": "Delaware features a mix of historic and modern homes, with cold snowy winters causing freeze-thaw damage.",
+        "nearbyAreas": [
+          "Powell",
+          "Lewis Center",
+          "Sunbury"
+        ]
+      },
+      {
+        "city": "Grandview Heights",
+        "slug": "grandview-heights-oh",
+        "state": "OH",
+        "content": "Summit Flooring serves Grandview Heights, OH, delivering premium flooring solutions for its charming, close-knit community. Our expertise in freeze-thaw damage ensures your floors stay flawless during snowy winters. Whether you're refinishing hardwood, installing tile, or choosing eco-friendly options, we meet Grandview Heights' high standards.\n\nGrandview Heights' climate necessitates flooring that resists moisture and temperature shifts. We recommend durable materials and expert installation to maintain your home's comfort and style year-round.",
+        "localContext": "Grandview Heights is a close-knit community with cold snowy winters and freeze-thaw damage.",
+        "nearbyAreas": [
+          "Upper Arlington",
+          "Columbus",
+          "Marble Cliff"
+        ]
+      },
+      {
+        "city": "Blacklick",
+        "slug": "blacklick-oh",
+        "state": "OH",
+        "content": "Summit Flooring is proud to serve Blacklick, OH, offering affordable and durable flooring solutions for its suburban homes. Our team specializes in addressing freeze-thaw damage, ensuring your floors withstand cold winters. Whether you need carpet, laminate, or vinyl, we provide options that fit Blacklick's practical and stylish living spaces.\n\nBlacklick's climate demands flooring that resists temperature fluctuations and moisture. We prioritize quality materials and professional installation to keep your home comfortable and visually appealing.",
+        "localContext": "Blacklick features suburban homes and experiences cold snowy winters with freeze-thaw damage.",
+        "nearbyAreas": [
+          "Gahanna",
+          "New Albany",
+          "Reynoldsburg"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "hardwood-floor-installation": "/images/service-hardwood-floor-installation.webp",
+      "luxury-vinyl-plank": "/images/service-luxury-vinyl-plank.webp",
+      "tile-flooring": "/images/service-tile-flooring.webp",
+      "carpet-installation": "/images/service-carpet-installation.webp",
+      "floor-refinishing": "/images/service-floor-refinishing.webp"
+    },
+    "servicesResponsive": {
+      "hardwood-floor-installation": {
+        "src": "/images/service-hardwood-floor-installation.webp",
+        "srcset": "/images/service-hardwood-floor-installation-400w.webp 400w, /images/service-hardwood-floor-installation-800w.webp 800w, /images/service-hardwood-floor-installation-1200w.webp 1200w, /images/service-hardwood-floor-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "luxury-vinyl-plank": {
+        "src": "/images/service-luxury-vinyl-plank.webp",
+        "srcset": "/images/service-luxury-vinyl-plank-400w.webp 400w, /images/service-luxury-vinyl-plank-800w.webp 800w, /images/service-luxury-vinyl-plank-1200w.webp 1200w, /images/service-luxury-vinyl-plank.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tile-flooring": {
+        "src": "/images/service-tile-flooring.webp",
+        "srcset": "/images/service-tile-flooring-400w.webp 400w, /images/service-tile-flooring-800w.webp 800w, /images/service-tile-flooring-1200w.webp 1200w, /images/service-tile-flooring.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "carpet-installation": {
+        "src": "/images/service-carpet-installation.webp",
+        "srcset": "/images/service-carpet-installation-400w.webp 400w, /images/service-carpet-installation-800w.webp 800w, /images/service-carpet-installation-1200w.webp 1200w, /images/service-carpet-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "floor-refinishing": {
+        "src": "/images/service-floor-refinishing.webp",
+        "srcset": "/images/service-floor-refinishing-400w.webp 400w, /images/service-floor-refinishing-800w.webp 800w, /images/service-floor-refinishing-1200w.webp 1200w, /images/service-floor-refinishing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
